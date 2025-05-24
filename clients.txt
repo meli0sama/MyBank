@@ -1,0 +1,2 @@
+1|Alioune Diop|Salarié|450000.0|35
+3|Aissatou Ndiaye|Particulier|300000.0|28
