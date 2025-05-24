@@ -9,11 +9,6 @@ import java.util.List;
 public class MaFenetre {
     public static void main(String[] args) throws IOException {
         try {
-            // Créer et sauvegarder un client
-            Client client = new Client("Alioune Diop", "Salarié", 450000, 35);
-            ClientDAO.saveClient(client);
-
-            // Lire et afficher clients
             List<Client> clients = ClientDAO.getAllClients();
             for(Client c : clients) {
                 System.out.println("Client ID " + c.getId() + ": " + c.getNomPrenom() + ", type: " + c.getType());
@@ -37,3 +32,24 @@ public class MaFenetre {
     }
 
 }
+
+
+/*
+import javax.swing.*;
+public class MaFenetre extends JFrame {
+
+public MaFenetre() {
+        super("Banque");
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setBounds(100, 100, 450, 300);
+        setSize(720, 480);
+        setLocationRelativeTo(null);
+    }
+    public static void main(String[] args) {
+        MaFenetre maFenetre = new MaFenetre();
+        maFenetre.setVisible(true);
+
+    }
+
+}
+*/

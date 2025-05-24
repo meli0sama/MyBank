@@ -44,3 +44,80 @@ public class Client {
         return c;
     }
 }
+
+
+/*
+public class Client {
+    private static int compteur = 0;
+    private int idClient;
+    private String nom;
+    private String prenom;
+    private String typeClient;
+    private double revenusMensuels;
+    private int age;
+
+    //Constructeur
+    public Client(String nom, String prenom, String typeClient, double revenusMensuels, int age) {
+        this.idClient = compteur++;
+        this.nom = nom;
+        this.prenom = prenom;
+        this.typeClient = typeClient;
+        this.revenusMensuels = revenusMensuels;
+        this.age = age;
+    }
+
+    //Getter et Setter
+    public int getIdClient() {
+        return idClient;
+    }
+
+    public String getPrenom(String prenom) {
+         return prenom;
+    }
+
+    public void setPrenom(String prenom) {
+        this.prenom = prenom;
+    }
+
+    public String getNom() {
+        return nom;
+    }
+
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+
+    public String gettypeClient() {
+        return typeClient;
+    }
+
+    public double getRevenusMensuels() {
+        return revenusMensuels;
+    }
+
+    public void setRevenusMensuels(double revenusMensuels) {
+        this.revenusMensuels = revenusMensuels;
+    }
+
+    public String getPrenom() {
+        return prenom;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String toLigneTexte() {
+        return idClient + ":" + nom + ":" + prenom + ":" + typeClient + ":" + revenusMensuels + ":" + age;
+    }
+
+    public void ajoutClient() {
+
+    }
+
+}
+*/
