@@ -1,0 +1,3 @@
+2|Cissoko|Mouhamed|Particulier|19022.0|21
+5|Cissoko|Mouhamed|Société|180811.0|34
+19|Cissoko|Mouhamed|Société|180811.0|34
